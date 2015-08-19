@@ -43,7 +43,7 @@ for (var i = artistspan.length - 1; i >= 0; --i) {
 
   var pkp_gmlink = document.createElement('a');
   pkp_gmlink.className = "listen-link googlemusic";
-  pkp_gmlink.href = spquery;
+  pkp_gmlink.href = gmquery;
   pkp_gmlink.title = "Listen on Google Music";
   pkp_gmlink.innerHTML = '<i class="fa fa-music"></i><span>Google Music</span>';
   artistspan[i].children[1].appendChild( pkp_gmlink );
